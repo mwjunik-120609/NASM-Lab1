@@ -3,9 +3,9 @@ global _start
 section .text
 _start:
     mov rax, 12
-    mov rbx, 7
+    mov rbx, 9
     add rax, rbx
-    sub rax, 3
+    sub rax, 1
 
     mov rcx, rax
     add rcx, 10
